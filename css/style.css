@@ -23,6 +23,7 @@ body{
 .topnav {
     background-color: #134074;
     width: auto;
+    height: auto;
     overflow: hidden;
   }
   
@@ -30,7 +31,7 @@ body{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 50px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -43,6 +44,16 @@ body{
   .topnav a.active {
     background-color: #0b2545;
     color: white;
+  }
+  
+  #zerar{
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  #abacoNoMenu{
+    padding: 1px 10px;
   }
 
 #main-content{
