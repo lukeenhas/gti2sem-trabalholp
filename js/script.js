@@ -9,4 +9,6 @@ function calculaCombustivel(event){
     gastoTotal = consumo * preco
   
 
-document.getElementById("resultado").innerHTML
+document.getElementById("resultado").innerHTML = "teste";
+
+}
