@@ -5,7 +5,7 @@
 /*Paleta #134074 #13315c #0b2545 #8da9c4 #eef4ed*/
 body{
     font-family: Raleway, sans-serif;
-    background: #eef4ed;
+    background: #white;
     margin: 0;
     padding: 0;
     display: block;
@@ -19,6 +19,31 @@ body{
     width: auto;
     height: auto;
 }
+
+.topnav {
+    background-color: #134074;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0b2545;
+    color: white;
+  }
 
 #main-content{
     display: flex;
