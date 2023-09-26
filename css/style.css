@@ -46,14 +46,10 @@ body{
     color: white;
   }
   
-.zerar{
+#zerar{
+  margin-top: 1px;
+  padding: 0px 10px;
   float: right;
-  margin: 0;
-  padding: 0;
-}
-
-.abacoNoMenu{
-  padding: 1px 10px;
 }
 
 #main-content{
