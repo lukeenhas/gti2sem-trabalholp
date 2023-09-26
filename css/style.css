@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
 
- 
-
 /*Paleta #134074 #13315c #0b2545 #8da9c4 #eef4ed*/
 body{
-    font-family: Raleway, sans-serif;
-    background: #eef4ed;
-    margin: 0;
-    padding: 0;
-    display: block;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  font-family: Raleway, sans-serif;
+  background: #eef4ed;
+  margin: 0;
+  padding: 0;
+  display: block;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container-container{
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 .topnav {
-    background-color: #134074;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-  }
+  background-color: #134074;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
   
   .topnav a {
     float: left;
@@ -50,6 +48,10 @@ body{
   margin-top: 1px;
   padding: 0px 10px;
   float: right;
+}
+
+h1{
+  margin-top: 20px;
 }
 
 #main-content{
@@ -115,6 +117,13 @@ label{
   background-color: #0b2545;
   font-family: Raleway, sans-serif;
   color: white;
+}
+
+#contact-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-md-12{
