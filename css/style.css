@@ -62,7 +62,7 @@ h1{
 }
 
 form{
-  margin-top: -20px;
+  margin-top: -5px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -77,22 +77,22 @@ label{
 input{
   margin-top: 5px;
   font-size: 18px;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 select{
   font-size: 18px;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 #checkbox{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 30px;
 }
 
 label{
@@ -124,6 +124,10 @@ label{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.form-control{
+  border-radius: 10px;
 }
 
 .row-md-12{
