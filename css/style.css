@@ -62,28 +62,61 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+form{
+    margin-top: -20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+input{
+    margin-top: 5px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+select{
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 #checkbox{
 display: flex;
+flex-direction: row;
 align-items: center;
 justify-content: space-between;
 line-height: 30px;
 }
 
-#tipocarro{
-    display: block;
-}
-
-#tipomoto{
-    display: block;
-}
-
 label{
     display: block;
     font-weight: 600;
-<<<<<<< HEAD
 }
 
-=======
-    line-height: 30px;
+#calcular{
+    margin-top: 20px;
+    font-size: 30px;
 }
->>>>>>> f0c4ef28005eb80c863874210fe4f2a53c4ceeb5
+
+#calcular:hover{
+    background-color: #515151;
+}
+
+#resultado{
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #0b2545;
+    font-family: Raleway, sans-serif;
+    color: white;
+}

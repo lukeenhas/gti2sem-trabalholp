@@ -33,20 +33,20 @@
             </div>
                 <label for="distancia">Distancia Percorrida (em KM):</label>
                 <input type="number" id="distancia" name="distancia" step="1.0" placeholder="Exemplo: 296">
-                <label for="number">Gasto do veiculo: </label>
-                <input type="number" id="gasto" name="gasto">
+                <label for="number">Gasto do veiculo(KM/L de Combustível): </label>
+                <input type="number" id="gasto" name="gasto" placeholder="Exemplo: 18">
                 <label for="combustivel">Selecione o tipo de combustível que o seu veículo utiliza:</label>
                 <select name="combustivel" id="combustivel" required>
                     <option value="" disabled selected>Selecione...</option>
-                    <option value="GAS">Gasolina</option>
-                    <option value="DIE">Diesel</option>
-                    <option value="ALC">Álcool</option>
+                    <option value="gasolina">Gasolina</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="álcool">Álcool</option>
                 </select>
                 <label for="preco">Digite o preço atual do combustível:</label>
                 <input type="number" id="preco" name="preco" step="0.01" placeholder="Exemplo: 5.09">
                 <input type="submit" value="Calcular" id="calcular" onclick="calculaCombustivel(event)"/>
-                <div id="resultado"></div>
             </form>
+            <div id="resultado"><p>O resultado aparecerá aqui!</p></div>
         </div>
     </div>
     <script src="js/script.js"></script>
