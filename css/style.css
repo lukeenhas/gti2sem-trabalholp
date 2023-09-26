@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.container-container{
     width: auto;
     height: auto;
 }
@@ -114,5 +114,10 @@ label{
   padding: 10px 10px;
   background-color: #0b2545;
   font-family: Raleway, sans-serif;
+  color: white;
+}
+
+.row-md-12{
+  background-color: #134074;
   color: white;
 }
