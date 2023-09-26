@@ -14,40 +14,8 @@
             <a class="active" href="#home">Página Inicial</a>
             <a href="#news">Formulário</a>
             <a href="#contact">Contato</a>
-            <a href="#home" id="zerar"><img src="img/abacus-velho64.png" alt="Imagem do Ábaco" id="abacoNoMenu"></a>
+            <a href="#home" class="zerar"><img src="img/abacus-velho64.png" alt="Imagem do Ábaco" class="abacoNoMenu"></a>
           </div>
-        <div id="main-content">
-            <h1 id="main-title">Calculo de Combustível</h1>
-            <form action="">
-                <label for="pnome">Primeiro Nome:</label>
-                <input type="text" id="pnome" name="pnome" placeholder="Exemplo: Eduardo">
-                <label for="unome">Último Nome:</label>
-                <input type="text" id="unome" name="unome" placeholder="Exemplo: Silva">
-                <label for="date">Data da Consulta:</label>
-                <input type="date" id="date" name="date">
-            <div id="checkbox">
-                <input type="checkbox" id="tipocarro" name="tipocarro">
-                <label for="tipocarro">Meu veículo é um carro</label>
-                <input type="checkbox" id="tipomoto" name="tipomoto">
-                <label for="tipomoto">Meu veículo é uma moto</label>
-            </div>
-                <label for="distancia">Distancia Percorrida (em KM):</label>
-                <input type="number" id="distancia" name="distancia" step="1.0" placeholder="Exemplo: 296">
-                <label for="number">Gasto do veiculo(KM/L de Combustível): </label>
-                <input type="number" id="gasto" name="gasto" placeholder="Exemplo: 18">
-                <label for="combustivel">Selecione o tipo de combustível que o seu veículo utiliza:</label>
-                <select name="combustivel" id="combustivel" required>
-                    <option value="" disabled selected>Selecione...</option>
-                    <option value="gasolina">Gasolina</option>
-                    <option value="diesel">Diesel</option>
-                    <option value="álcool">Álcool</option>
-                </select>
-                <label for="preco">Digite o preço atual do combustível:</label>
-                <input type="number" id="preco" name="preco" step="0.01" placeholder="Exemplo: 5.09">
-                <input type="submit" value="Calcular" id="calcular" onclick="calculaCombustivel(event)"/>
-            </form>
-            <div id="resultado"><p>O resultado aparecerá aqui!</p></div>
-        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

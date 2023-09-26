@@ -46,47 +46,47 @@ body{
     color: white;
   }
   
-  #zerar{
-    float: right;
-    margin: 0;
-    padding: 0;
-  }
+.zerar{
+  float: right;
+  margin: 0;
+  padding: 0;
+}
 
-  #abacoNoMenu{
-    padding: 1px 10px;
-  }
+.abacoNoMenu{
+  padding: 1px 10px;
+}
 
 #main-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 form{
-    margin-top: -20px;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin-top: -20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 label{
-    margin-top: 18px;
-    margin-left: 10px;
+  margin-top: 18px;
+  margin-left: 10px;
 }
 
 input{
-    margin-top: 5px;
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 select{
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 #checkbox{
@@ -98,25 +98,25 @@ line-height: 30px;
 }
 
 label{
-    display: block;
-    font-weight: 600;
+  display: block;
+  font-weight: 600;
 }
 
 #calcular{
-    margin-top: 20px;
-    font-size: 30px;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 #calcular:hover{
-    background-color: #515151;
+  background-color: #515151;
 }
 
 #resultado{
-    margin-top: 20px;
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 10px 10px;
-    background-color: #0b2545;
-    font-family: Raleway, sans-serif;
-    color: white;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 10px;
+  background-color: #0b2545;
+  font-family: Raleway, sans-serif;
+  color: white;
 }
